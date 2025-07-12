@@ -1,8 +1,9 @@
-body{
+*{
+ margin:auto;
 
 }
 .part-1{
-    margin:40px auto;
+    margin: 40px auto;
     width:1320px;
     height:600px;
   
@@ -17,7 +18,8 @@ body{
 .content{
    text-align: center;   
     padding:177px 344px;
-   color:white;
+   color:white; 
+
 }
 .content h3{
   
@@ -27,3 +29,166 @@ body{
      font-size:72px; 
     
 }
+.part-2{
+  background-color:#f4f4f4;
+
+  width:810px;
+  height:815px;
+  margin: 150px auto;
+  border-radius:15px;
+}
+.container{
+  margin-left:200px;
+ 
+}
+.part-2 h1{
+font-size:88px;
+color:red; 
+margin-bottom:50px;
+
+}
+.part-2 h3{
+
+font-size:48px;
+color:black;
+margin-top: 0;
+
+}
+.part-2 p{
+font-size:24px;
+color:red;
+
+}
+.part-3{
+
+display: flex;
+width:1320px;
+height:600px;
+background-image:url('../images/Vectorrr.png') ;
+
+
+} 
+.para{
+  
+margin-left:120px;
+width:50%;
+margin-right:50px;
+}
+.picture{
+width:40%;
+margin-left:80px;
+}
+.para h2{
+font-size:64px;
+color:white;
+margin-bottom: 30px;
+}
+.para p{
+  font-size: 18px;
+  color:white;
+}
+.para button{
+  margin-top:20px;
+  font-size: 20px;
+  color:white;
+  margin-left: 30px;
+  border:none;
+  background-color:green;
+  border-radius:8px;
+  padding: 10px 15px;
+  cursor:pointer;
+}
+.cl{
+  color:red;
+  
+}
+.part-4{
+  margin-top: 120px;
+  border-radius: 15px;
+  background-color: #fce4ec;
+  width:1320px;
+  height:482px;
+  color:black;
+  font-size:32px;
+   display: flex;
+}
+.first{
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+.second{
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+ .btm{
+  font-size:16px;
+  border:none;
+  padding:15px;
+  border-radius: 6px;
+  background-color: green;
+  color:white;
+  margin-left: 150px;
+  margin-top: 40px;
+ }
+ .part-5{
+  margin-top: 100px;
+  display: flex;
+   width:1320px;
+   height:465px;
+gap:80px;
+ }
+ .part-5 h3{
+  font-size: 24px;
+  color:red;
+ 
+ }
+ .come{
+ 
+  font-size:48px;
+  color:black;
+ }
+ .part-5 p{
+  color:#070211;
+  font-size:20px;
+   margin-top: 20px;
+ }
+ .next h2{
+  font-size: 48px;
+  color:red;
+ }
+ .next p{
+  font-size:20px;
+  color:#070211;
+  margin-bottom: 20px;
+ }
+ .ellipse{
+  border:12px solid red;
+  padding:20px;
+  border-radius: 50%;
+ }
+ 
+ .part-6{
+  
+  width:1320px;
+  height:986px;
+   
+ }
+ .rec{
+   display: flex;
+  background-image: url('../images/Rectangle\ 2.png');
+background-position:bottom;
+
+  width:1320px;
+  height:229px;
+ 
+
+  
+  
+  /* position: relative;
+  
+  top:650px;*/
+  }
+ .im{
+
+ 
+ }
