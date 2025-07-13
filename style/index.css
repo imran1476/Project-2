@@ -173,6 +173,7 @@ gap:80px;
  }
 
  .part-6{
+  
   margin-top: 120px;
   border-radius: 10px;
   width:1320px;
@@ -238,10 +239,78 @@ color:black;
 font-size:20px;
 margin-bottom: 30px;
 }
-footer{
+.sec{
+  padding-top: 180px;
   height:616px;
+  border-radius: 15px;
   width:1320px;
+  background-color: #fff4f4;
+  box-shadow: 5px 10px 8px black;
 }
 .final{
-   margin-left: 300px;
+
+  display: flex;
+   width:896px;
+   height:338px;
+   
+margin:auto;
 }
+.para-3{
+  margin: auto;
+  
+  align-items: center;
+  justify-content: center;
+}
+.para-3 img{
+  padding-left: 350px;
+}
+.para-3 h1{
+padding-left: 230px;
+font-size: 48px;
+color:black;
+}
+.para-3 p{
+font-size:20px;
+color:#070211;
+text-align: center;
+}
+.sub{
+  margin-top: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border:none;
+  
+}
+ .subscribe-container {
+  background-color: red;
+  display: flex;
+  width: 648px;
+      height: 72px;
+  
+             overflow:hidden;
+      border-radius: 999px;
+      
+     /* display: flex;
+      
+      border-radius: 999px;
+   
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);*/
+    }
+      .subscribe-container button{
+         background-color: red;
+         color:white;
+          width:280px;
+          border:none;
+border-radius: ;
+font-size: 20px;
+      }
+      .subscribe-container input{
+        background-color: white;
+         height: 72px;
+         width:538px;
+         font-size: 18px;
+          padding-left: 30px;
+          border:none;
+      }
+      
