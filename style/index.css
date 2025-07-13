@@ -4,6 +4,7 @@
 }
 body{
   background-color:ghostwhite;
+  max-width:1600px;
 }
 .part-1{
     margin: 40px auto;
@@ -15,8 +16,8 @@ body{
       justify-content: center;
       align-items: center;
      
-    background-image: url('../images/Banner\ Image.png');
-
+   
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/Banner\ Image.png');
 }
 .content{
    text-align: center;   
@@ -67,6 +68,7 @@ color:red;
 display: flex;
 width:1320px;
 height:600px;
+ 
 background-image:url('../images/Vectorrr.png') ;
 
 
@@ -101,6 +103,9 @@ margin-bottom: 30px;
   padding: 10px 15px;
   cursor:pointer;
 }
+.para button:hover{
+  background-color: blueviolet;
+}
 .cl{
   color:red;
   
@@ -132,6 +137,9 @@ margin-bottom: 30px;
   color:white;
   margin-left: 150px;
   margin-top: 40px;
+ }
+ .btm:hover{
+  background-color: purple;
  }
  .part-5{
   border-radius: 8px;
@@ -191,6 +199,7 @@ gap:80px;
     display: flex;
     position:relative;
     top:200px;
+     
     
   }
   .pera{
@@ -225,6 +234,7 @@ gap:80px;
     width:1320px;
     height:1165px;
     margin:200px auto;
+    box-shadow: 5px 5px 12px black;
   }
   .last h5{
 color:red;
@@ -305,6 +315,7 @@ text-align: center;
 border-radius: ;
 font-size: 20px;
       }
+       
       .subscribe-container input{
         background-color: white;
          height: 72px;
@@ -313,4 +324,52 @@ font-size: 20px;
           padding-left: 30px;
           border:none;
       }
+      footer{
+        border-radius:15px;
+        width:1320px;
+        height:609px;
+        color:white;
+       
+        background-color: black;
+       margin-top: 200px;
+       margin-right: 450px;
       
+      }
+      .abba{
+        font-size: 24px;
+        color:white;
+         display: flex;
+ justify-content: space-between;
+      }
+      .build{
+        margin-top: 150px;
+      }
+      .build-img{
+        margin-top: 150px;
+      }
+      .spn{
+    margin-bottom: 50px;
+    
+      }
+      .icon{
+     width:326px;
+     height:64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        
+      }
+      .ht1{
+        color:grey;
+        margin-left: 200px;
+        margin-top: 40px;
+        margin-right: 100px;
+      }
+      .ht{
+        color:white;
+        margin-left: 200px;
+        margin-top: 40px;
+        margin-right: 100px;
+      }
+       
